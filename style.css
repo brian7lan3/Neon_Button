@@ -8,14 +8,17 @@
 body
 {
     display: flex;
-/*	flex-start | flex-end | center | space-between | space-around;*/
 	flex-wrap: wrap;
+/*	// 修改以下值試試看 flex-start | flex-end | center | space-between | space-around;*/
     justify-content: space-around;
+/*	// 修改以下值試試看 flex-start | flex-end | center | baseline | stretch;*/
     align-items: center;
     min-height: 100vh;
 /*    flex-direction: column;*/
     background: #050801;
 }
+/*.main{min-width: 1200px;text-align: center;};*/
+
 a
 {
     position: relative;
@@ -33,11 +36,11 @@ a
 }
 a:nth-child(1)
 {
-	filter: hue-rotate(290deg);
+	filter: hue-rotate(110deg);
 }
 a:nth-child(3)
 {
-	filter: hue-rotate(110deg);
+	filter: hue-rotate(290deg);
 }
 a:hover
 {
@@ -60,7 +63,7 @@ a span:nth-child(1)
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg,transparent,#03e9f4);
-    animation: animate1 1s linear infinite;
+    animation: animate1 4s linear infinite;
 }
 @keyframes animate1
 {
@@ -80,8 +83,8 @@ a span:nth-child(2)
     width: 2px;
     height: 100px;
     background: linear-gradient(180deg,transparent,#03e9f4);
-    animation: animate2 1s linear infinite;
-	animation-delay: 0.25s;
+    animation: animate2 4s linear infinite;
+	animation-delay: 1s;
 }
 @keyframes animate2
 {
@@ -101,8 +104,8 @@ a span:nth-child(3)
     width: 100%;
     height: 2px;
     background: linear-gradient(270deg,transparent,#03e9f4);
-    animation: animate3 1s linear infinite;
-	animation-delay: 0.5s;
+    animation: animate3 4s linear infinite;
+	animation-delay: 2s;
 }
 @keyframes animate3
 {
@@ -122,8 +125,8 @@ a span:nth-child(4)
     width: 2px;
     height: 100%;
     background: linear-gradient(360deg,transparent,#03e9f4);
-    animation: animate4 1s linear infinite;
-	animation-delay: 0.75s;
+    animation: animate4 4s linear infinite;
+	animation-delay: 3s;
 }
 @keyframes animate4
 {
