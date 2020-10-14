@@ -8,10 +8,12 @@
 body
 {
     display: flex;
-    justify-content: center;
+/*	flex-start | flex-end | center | space-between | space-around;*/
+	flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-    flex-direction: column;
+/*    flex-direction: column;*/
     background: #050801;
 }
 a
