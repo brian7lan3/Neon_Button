@@ -13,6 +13,8 @@ body {
 div {
 	display: flex;
 	flex-wrap: wrap;
+	/*	border: auto;*/
+	/*	width: 25vh;*/
 	/*	// 修改以下值試試看 flex-start | flex-end | center | space-between | space-around;*/
 	justify-content: space-around;
 	/*	// 修改以下值試試看 flex-start | flex-end | center | baseline | stretch;*/
@@ -24,6 +26,7 @@ div {
 a {
 	position: relative;
 	display: inline-block;
+	width: 25vh;
 	padding: 25px 30px;
 	margin: 10px 10px;
 	color: #03e9f4;
